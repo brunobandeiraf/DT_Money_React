@@ -5,7 +5,7 @@ export const SearchFormContainer = styled.form`
   gap: 1rem;
   
   input {
-    flex: 1;
+    flex: 1; // ocupar o espaço todo
     border-radius: 6px;
     border: 0;
     background: ${props => props.theme["gray-900"]};
@@ -18,7 +18,7 @@ export const SearchFormContainer = styled.form`
   }
 
   button {
-    display: flex;
+    display: flex; // Para alinhar o item com o botão
     align-items: center;
     gap: 0.75rem;
     border: 0;
@@ -28,6 +28,7 @@ export const SearchFormContainer = styled.form`
     color: ${props => props.theme["green-300"]};
     font-weight: bold;
     border-radius: 6px;
+
     &:hover {
       background: ${props => props.theme["green-500"]};
       border-color: ${props => props.theme["green-500"]};
