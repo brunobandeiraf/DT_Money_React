@@ -9,3 +9,6 @@ npm i
 ## Styled Components
 - npm i styled-components
 - npm i @types/styled-components -D
+
+## Library Icons
+- npm i phosphor-react

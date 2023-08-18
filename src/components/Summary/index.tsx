@@ -7,7 +7,8 @@ export function Summary() {
       <SummaryCard>
         <header>
           <span>Entradas</span>
-          <ArrowCircleUp size={32} color="#00b37e" />
+           {/* ArrowCircleUp é da biblioteca de ícones */}
+          <ArrowCircleUp size={32} color="#00b37e" /> 
         </header>
 
         <strong>R$ 17.400,00</strong>
@@ -22,6 +23,7 @@ export function Summary() {
         <strong>R$ 17.400,00</strong>
       </SummaryCard>
 
+      {/* Foi criado uma interface no style para lidar com essa variant */}
       <SummaryCard variant="green">
         <header>
           <span>Total</span>
