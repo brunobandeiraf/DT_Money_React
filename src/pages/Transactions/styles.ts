@@ -9,17 +9,20 @@ export const TransactionsContainer = styled.main`
 
 export const TransactionsTable = styled.table`
   width: 100%;
-  border-collapse: separate;
-  border-spacing: 0 0.5rem;
-  /* margin-top: 1.5rem; */
+  border-collapse: separate; // Separação entre as linhas 
+  border-spacing: 0 0.5rem; // Libera após o uso do collapse
+  margin-top: 1.5rem;
+  
   td {
     padding: 1.25rem 2rem;
     background: ${props => props.theme["gray-700"]};
-    &:first-child {
+    
+    &:first-child { // Primeira td
       border-top-left-radius: 6px;
       border-bottom-left-radius: 6px;
     }
-    &:last-child {
+
+    &:last-child { // Último td
       border-top-right-radius: 6px;
       border-bottom-right-radius: 6px;
     }
@@ -28,6 +31,8 @@ export const TransactionsTable = styled.table`
 
 interface PriceHighlightProps {
   variant: "income" | "outcome";
+  // income - entrada
+  // outcome - saída
 }
 
 export const PriceHighlight = styled.span<PriceHighlightProps>`
