@@ -17,3 +17,4 @@ npm i
 - https://www.radix-ui.com/
 - Conteúdo primitivo, sem estilização
 - npm install @radix-ui/react-dialog
+- npm install @radix-ui/react-radio-group
