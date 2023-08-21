@@ -29,12 +29,9 @@ npm i
 - npx json-server server.json -p 3333 -w -d 500
 - npm run dev:server
 
-## Observar Porta
-- lsof -i :3333
-
 ## Form Validate
 - npm i react-hook-form zod
 - npm i @hookform/resolvers
 
-## DAta atual no navegador em js
-new Date().toISOString()
+## Axios
+- npm i axios
