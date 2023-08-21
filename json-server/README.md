@@ -32,5 +32,9 @@ npm i
 ## Observar Porta
 - lsof -i :3333
 
+## Form Validate
+- npm i react-hook-form zod
+- npm i @hookform/resolvers
+
 ## DAta atual no navegador em js
 new Date().toISOString()
