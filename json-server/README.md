@@ -38,3 +38,6 @@ npm i
 
 ## Performance
 - npm i use-context-selector scheduler
+
+## Identify TS Errors
+- npm run tsc --noEmit
