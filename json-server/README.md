@@ -35,3 +35,6 @@ npm i
 
 ## Axios
 - npm i axios
+
+## Performance
+- npm i use-context-selector scheduler
